@@ -1,6 +1,11 @@
-each("mappedPatientsData[*]", state => {
-    // state.data will contain values of each iteration
-    create('trackedEntityInstances', state.data);
-
-    return state;
+// Your job goes here.
+create('trackedEntityInstances', {
+  orgUnit: 'TSyzvBiovKh',
+  trackedEntityType: 'nEenWmSyUEp',
+  attributes: [
+    {
+      attribute: 'w75KJ2mc4zz',
+      value: 'Gigiwe',
+    },
+  ]
 });
